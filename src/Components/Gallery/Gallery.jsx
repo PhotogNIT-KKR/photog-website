@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import locomotiveScroll from 'locomotive-scroll';
 import '../../Styles/gallery.css'
+import NavBar from "../NavBar/NavBar";
 
 const Gallery = () => {
     let images = [];
@@ -55,7 +56,7 @@ const Gallery = () => {
 
     return (
         <>
-
+            <NavBar/>
             <div class='scroll-animations-example' data-scroll-container>
                 <div class='scrollsection' data-scroll-section>
                     <div class='item -normal' data-scroll data-scroll-speed="2">
