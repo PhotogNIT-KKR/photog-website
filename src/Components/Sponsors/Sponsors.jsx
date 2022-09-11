@@ -1,15 +1,15 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import '../../Styles/NavBar.css'
 
-const HomePage = () => {
+
+const Sponsors= () => {
     
     return (
         <div>
             <NavBar/>
-            <h1>Fuck Every Other Club</h1>
+            <h1>Sponsors are here</h1>
         </div> 
     )
 }
 
-export default HomePage;
+export default Sponsors;
