@@ -1,6 +1,7 @@
 .scroll-animations-example>.scrollsection {
     padding: 10vh 10vh 10vh 10vmax;
     min-width: 550vh;
+    background-color: black;
 }
 
 .scroll-animations-example>.scrollsection>.item {
