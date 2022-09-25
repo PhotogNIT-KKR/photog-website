@@ -1,7 +1,9 @@
 .scroll-animations-example>.scrollsection {
-    padding: 10vh 10vh 10vh 10vmax;
-    min-width: 550vh;
-    background-color: black;
+    padding-left: 20vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 22.74%, #000000 100%);
+opacity: 0.85;
 }
 
 .scroll-animations-example>.scrollsection>.item {
@@ -19,7 +21,21 @@
 
 .scroll-animations-example>.scrollsection>.item.-big {
     height: 80vh;
-    width: 60vh;
+    width: 85vh;
+}
+
+.scroll-animations-example>.scrollsection>.item.-big {
+    height: 80vh;
+    width: 85vh;
+}
+
+.scroll-animations-example>.scrollsection>.item.-big:nth-of-type(3n) {
+    bottom: -5vh;
+}
+
+.scroll-animations-example>.scrollsection>.item.-big:nth-of-type(4n) {
+    bottom: 5vh;
+
 }
 
 .scroll-animations-example>.scrollsection>.item.-big.-horizontal {
@@ -29,7 +45,7 @@
 
 .scroll-animations-example>.scrollsection>.item.-normal {
     height: 60vh;
-    width: 45vh;
+    width: 60vh;
     z-index: 1;
 }
 
@@ -48,12 +64,12 @@
 
 .scroll-animations-example>.scrollsection>.item.-small {
     height: 40vh;
-    width: 30vh;
+    width: 40vh;
     z-index: 2;
 }
 
 .scroll-animations-example>.scrollsection>.item.-small.-horizontal {
-    height: 30vh;
+    height: 40vh;
     width: 40vh;
 }
 
@@ -78,6 +94,10 @@
     transition: filter .3s ease,
         opacity 1s ease,
         transform 1s ease;
+}
+
+.scroll-animations-example>.scrollsection img{
+    object-fit: contain;
 }
 
 .scroll-animations-example>.scrollsection>.item:nth-of-type(4n)>.image {
@@ -127,42 +147,4 @@
     filter: grayscale(0);
     opacity: 1;
     cursor: pointer;
-}
-
-
-.fake-ui {
-    font-size: 0;
-}
-
-.fake-ui>.logo {
-    position: fixed;
-    top: 2vh;
-    left: 2vh;
-    height: 3vh;
-    width: 2.5vh;
-    border: solid 1vh #999;
-}
-
-.fake-ui>.nav {
-    position: fixed;
-    top: 2vh;
-    right: 2vh;
-}
-
-.fake-ui>.nav>.item {
-    background: #999;
-    display: inline-block;
-    height: 2vh;
-    width: 10vh;
-    margin-left: 2vh;
-}
-
-.fake-ui>.footer {
-    position: fixed;
-    bottom: 3vh;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 2vh;
-    width: 40vh;
-    background: #999;
 }
