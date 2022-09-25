@@ -1,15 +1,15 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import '../../Styles/NavBar.css'
 
-const HomePage = () => {
+
+const Contacts = () => {
     
     return (
         <div>
             <NavBar/>
-            <h1>Home Page</h1>
+            <h1>Contacts under development</h1>
         </div> 
     )
 }
 
-export default HomePage;
+export default Contacts;
