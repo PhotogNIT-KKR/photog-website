@@ -8,16 +8,12 @@ const Gallery = () => {
 
     const showImages = () => {
         images.forEach((image) => {
-            image.classList.remove('-clicked');
-            image.classList.add('-active');
         });
     }
 
     const hideImages = () => {
         images.forEach((image) => {
-            image.classList.remove('-active');
         });
-        //setTimeout(showImages(), 200000);
     }
 
     useEffect(() => {
@@ -25,15 +21,6 @@ const Gallery = () => {
         images = root.querySelectorAll('.image');
 
         const func = () => {
-            images.forEach((image) => {
-            
-                image.addEventListener('click', () => {
-                    image.classList.add('-clicked');
-                    hideImages();
-                });
-            });
-
-            setTimeout(showImages(), 1000);
 
             const scroll = new locomotiveScroll({
                 el: root,
