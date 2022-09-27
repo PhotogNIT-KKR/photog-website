@@ -4,6 +4,7 @@
   align-items: center;
   background: linear-gradient(180deg, #ffffff 0%, #e8e8e8 22.74%, #000000 100%);
   opacity: 0.85;
+  height: 100vh;
   min-width: 100vw;
 }
 
