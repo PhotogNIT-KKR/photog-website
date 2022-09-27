@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import Mono from "../NavBar/Mono.png";
 import '../../Styles/NavBar.css';
 // import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -11,10 +12,7 @@ const Navbar = () => {
     <>
       <nav className="main-nav">
              <div className="logo">
-          <h2>
-            <span>P</span>hoto
-            <span>G</span>raphy
-          </h2>
+          <img src={Mono}/>
         </div>
 
          <div
@@ -23,26 +21,27 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/">home</NavLink>
             </li>
             <li>
-              <NavLink to="/Gallery">Gallery</NavLink>
+              <NavLink to="/Gallery">gallery</NavLink>
             </li>
             <li>
-              <NavLink to="/Sponsors">Sponsors</NavLink>
+              <NavLink to="/Sponsors">sponsors</NavLink>
             </li>
             <li>
-              <NavLink to="/Activities">Activities</NavLink>
+              <NavLink to="/Activities">activities</NavLink>
+            </li>
+            <li className="menu-link1">
+              <NavLink to="/About">about</NavLink>
             </li>
             <li>
-              <NavLink to="/About">About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Contacts">Contact</NavLink>
+              <NavLink to="/Contacts">contact</NavLink>
             </li>
             
           </ul>
         </div>
+        
 
         <div className="social-media">
           <div className="hamburger-menu">
