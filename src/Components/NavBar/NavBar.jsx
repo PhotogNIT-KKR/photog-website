@@ -1,18 +1,8 @@
-import About from "../About/About";
-import Activities from "../Activities/Activities";
-import Contacts from "../Contacts/Contacts";
-import HomePage from "../HomePage/HomePage";
-import Gallery from "../Gallery/Gallery";
-import Sponsors from "../Sponsors/Sponsors";
+
 import React, { useState } from "react";
 import Mono from "../NavBar/Mono.png";
 import '../../Styles/NavBar.css';
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 
 import { NavLink } from "react-router-dom";
 
@@ -56,7 +46,7 @@ const Navbar = () => {
         <div className="social-media">
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
+              {/* <GiHamburgerMenu /> */}
             </a>
           </div>
         </div>
