@@ -14,12 +14,9 @@ import Contacts from './Components/Contacts/Contacts';
 import NotFound from './Components/NotFound/NotFound';
 
 const  App =() => {
-  console.log("hello");
   return (
       <Router>
         <Routes>
-
-          {/* Add your Route here */}
           <Route  path="/gallery" element={<Gallery />} />
           <Route  path="/" element={<HomePage />} />
           <Route  path="/about" element={<About />} />
