@@ -1,15 +1,15 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import '../../Styles/NavBar.css'
+import classes from "../../Styles/home.module.css";
 
 const HomePage = () => {
-    
-    return (
-        <div>
-            <NavBar/>
-            <h1></h1>
-        </div> 
-    )
-}
-
+  return (
+    <div>
+      <NavBar />
+      <div className={classes.main_container}>
+        <h1>Home Page</h1>
+      </div>
+    </div>
+  );
+};
 export default HomePage;
