@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import classes from './Styles/app.module.css'
 import {  BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -15,7 +15,8 @@ import NotFound from './Components/NotFound/NotFound';
 
 const  App =() => {
   return (
-      <Router>
+      <div className={classes.main_cont}>
+        <Router>
         <Routes>
           <Route  path="/gallery" element={<Gallery />} />
           <Route  path="/" element={<HomePage />} />
@@ -26,6 +27,7 @@ const  App =() => {
           <Route exact  path="*" element={<NotFound />} ></Route>
         </Routes>
       </Router>
+      </div>
   );
 }
 
