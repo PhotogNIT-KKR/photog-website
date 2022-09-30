@@ -1,0 +1,39 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  /* SOCIAL STUFF */
+  .social_container {
+
+    background: transparent;
+    padding: 25px 32px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    height: 15rem;
+  }
+  .icn{
+    height: 10rem;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.facebook {
+    color: black;
+  }
+  a.twitter {
+    color: black;
+  }
+  a.instagram {
+    color: black;
+  }
+  
