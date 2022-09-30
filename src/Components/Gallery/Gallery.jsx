@@ -6,31 +6,31 @@ import imgArr from "../../utility/img";
 
 const Gallery = () => {
   const [media, setMedia] = useState([]);
-  let images = [];
+  // let images = [];
 
-  const showImages = () => {
-    images.forEach((image) => {
-      image.classList.remove("-clicked");
-      image.classList.add("-active");
-    });
-  };
+  // const showImages = () => {
+  //   images.forEach((image) => {
+  //     image.classList.remove("-clicked");
+  //     image.classList.add("-active");
+  //   });
+  // };
 
-  const hideImages = () => {
-    images.forEach((image) => {
-      image.classList.remove("-active");
-    });
-  };
+  // const hideImages = () => {
+  //   images.forEach((image) => {
+  //     image.classList.remove("-active");
+  //   });
+  // };
 
   useEffect(() => {
     const root = document.querySelector(".scroll-animations-example");
-    images = root.querySelectorAll(".image");
+    // images = root.querySelectorAll(".image");
 
     const func = () => {
-      images.forEach((image) => {
-        image.addEventListener("click", () => {
-          // on click function for media
-        });
-      });
+      // images.forEach((image) => {
+      //   image.addEventListener("click", () => {
+      //     // on click function for media
+      //   });
+      // });
 
       const scroll = new locomotiveScroll({
         el: root,

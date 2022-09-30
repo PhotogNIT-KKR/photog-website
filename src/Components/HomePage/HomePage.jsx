@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import bg from "../HomePage/bg.png";
 import moon from "../HomePage/moon2.png";
-import text1 from "../HomePage/text1.svg";
 import '../../Styles/NavBar.css'
 import SocialFollow from "../HomePage/socialFollow.jsx";
 // import '../../Styles/socialFollow.css'

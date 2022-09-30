@@ -2,7 +2,7 @@
 import React from 'react';
 import classes from './Styles/app.module.css'
 import {  BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import classes from './Styles/app.module.css'
 
 // Components
 import HomePage from './Components/HomePage/HomePage';
