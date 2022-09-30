@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Mono from "../NavBar/Mono.png";
 import '../../Styles/NavBar.css';
-// import { GiHamburgerMenu } from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import { NavLink } from "react-router-dom";
 
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="social-media">
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              {/* <GiHamburgerMenu /> */}
+              <GiHamburgerMenu />
             </a>
           </div>
         </div>
