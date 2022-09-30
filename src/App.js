@@ -1,8 +1,7 @@
 
 import React from 'react';
-
 import {  BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import classes from './Styles/app.module.css'
 
 // Components
 import HomePage from './Components/HomePage/HomePage';
@@ -15,7 +14,8 @@ import NotFound from './Components/NotFound/NotFound';
 
 const  App =() => {
   return (
-      <Router>
+      <div className={classes.main_container}>
+        <Router>
         <Routes>
           <Route  path="/gallery" element={<Gallery />} />
           <Route  path="/" element={<HomePage />} />
@@ -26,6 +26,7 @@ const  App =() => {
           <Route exact  path="*" element={<NotFound />} ></Route>
         </Routes>
       </Router>
+      </div>
   );
 }
 
