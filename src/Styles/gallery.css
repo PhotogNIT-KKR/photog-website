@@ -24,6 +24,7 @@
 .scroll-animations-example > .scrollsection > .item.-big {
   height: 80vh;
   width: 85vh;
+  /* background-color: red; */
 }
 
 .scroll-animations-example > .scrollsection > .item.-big:nth-of-type(3n) {
@@ -43,11 +44,15 @@
   height: 60vh;
   width: 60vh;
   z-index: 1;
+  /* background-color: pink; */
+
 }
 
 .scroll-animations-example > .scrollsection > .item.-normal.-horizontal {
   height: 45vh;
   width: 60vh;
+  /* background-color: yellow; */
+
 }
 
 .scroll-animations-example > .scrollsection > .item.-normal:nth-of-type(3n) {
@@ -62,6 +67,8 @@
   height: 40vh;
   width: 40vh;
   z-index: 2;
+  /* background-color: blue; */
+
 }
 
 .scroll-animations-example > .scrollsection > .item.-small.-horizontal {

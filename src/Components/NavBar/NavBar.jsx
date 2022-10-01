@@ -26,7 +26,7 @@ const Navbar = () => {
           <img src={Mono} />
         </div>
         <div className={classes.navItem1}>
-          <NavLink to="/" className={location == "" ? classes.active : ""} active>home</NavLink>
+          <NavLink to="/" className={location == "" ? classes.active : ""}>home</NavLink>
           <NavLink to="/Gallery" className={location == "Gallery" ? classes.active : ""}>gallery</NavLink>
           <NavLink to="/Sponsors" className={location == "Sponsors" ? classes.active : ""}>sponsors</NavLink>
           <NavLink to="/Activities" className={location == "Activities" ? classes.active : ""}>activities</NavLink>

@@ -215,3 +215,23 @@
         }
     }
 }
+
+@media only screen and (max-width:600px){
+    .text_show{
+        /* font-size: 7.5vw; */
+    }
+    .moon_rise{
+        top: 83%;
+    }
+    .bg_img{
+        bottom: -85px;
+        height: 100vh;
+        object-fit: cover;
+    }
+    @keyframes mon {
+        0% {}
+        100% {
+            top: 76%;
+        }
+    }
+}
