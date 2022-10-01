@@ -2,23 +2,32 @@
     font-family: sans-serif;
     text-align: center;
   }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
   
   /* SOCIAL STUFF */
   .social_container {
-
     background: transparent;
-    position: absolute;
-    bottom: 0;
-    right: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: -10px;
     z-index: 99;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    width: 11vw;
+    min-width: 75px;
+    padding-top: 5px;
+    border-radius: 50px 0 0 50px;
+    background-color: #b3b3b3ad;
   }
-  .icn{
-    height: 10rem;
-  }
+
   a.social {
-    margin: 0 1rem;
     transition: transform 250ms;
-    
   }
   
   a.social:hover {

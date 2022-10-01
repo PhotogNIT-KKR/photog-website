@@ -36,10 +36,8 @@ const Navbar = () => {
           <NavLink to="/Contacts" className={location == "Contact" ? classes.active : ""}>contact</NavLink>
         </div>
       </nav>
-      <div className={classes.social_media}>
-          <a href="#" onClick={() => navbarHandler()}>
-            <GiHamburgerMenu size={"30px"} />
-          </a>
+      <div className={classes.social_media} onClick={() => navbarHandler()}>
+            <GiHamburgerMenu size={"30px"} color="#b3b3b3"/>
         </div>
     </>
   );
