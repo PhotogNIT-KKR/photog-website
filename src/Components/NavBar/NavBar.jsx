@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Mono from "../NavBar/Mono.png";
+import Mono from  '../NavBar/logo.jpg'
 import { GiHamburgerMenu } from "react-icons/gi";
 import classes from "../../Styles/NavBar.module.css";
 import { useLocation } from 'react-router-dom';
