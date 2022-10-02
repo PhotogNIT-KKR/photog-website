@@ -64,10 +64,9 @@
   font-weight: 900;
   font-size: 7.5vw;
   color: white;
-
+  bottom: 45%;
   max-width: 85%;
   position: absolute;
-  top: 30%;
   margin: 0;
   padding: 0;
   background: -webkit-linear-gradient(
@@ -88,14 +87,12 @@
 
 @keyframes txt {
   0% {
-    /* visibility: visible; */
     opacity: 0.1;
   }
 
   100% {
-    /* visibility: visible; */
     opacity: 0.5;
-    top: 22%;
+    bottom: 63%;
   }
 }
 
@@ -228,20 +225,18 @@
 
   .text_show {
     animation-delay: 0s;
-    top: 50%;
+    bottom: 50%;
     animation-duration: 2.5s;
   }
 
   @keyframes txt {
     0% {
-      /* visibility: visible; */
       opacity: 0.1;
     }
 
     100% {
-      /* visibility: visible; */
       opacity: 0.5;
-      top: 30%;
+      bottom: 65%;
     }
   }
 }
