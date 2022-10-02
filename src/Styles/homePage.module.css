@@ -218,7 +218,7 @@
 
 @media only screen and (max-width: 600px) {
   .moon_rise {
-    top: 83%;
+    display: none;
   }
   .bg_img {
     bottom: -85px;
@@ -229,7 +229,7 @@
   .text_show {
     animation-delay: 0s;
     top: 50%;
-    animation-duration: 3.5s;
+    animation-duration: 2.5s;
   }
 
   @keyframes txt {
@@ -242,14 +242,6 @@
       /* visibility: visible; */
       opacity: 0.5;
       top: 25%;
-    }
-  }
-
-  @keyframes mon {
-    0% {
-    }
-    100% {
-      top: 76%;
     }
   }
 }
